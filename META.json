@@ -1,0 +1,48 @@
+{
+   "abstract" : "Make your object constructors blow up on unknown attributes",
+   "author" : [
+      "Dave Rolsky <autarch@urth.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.102340, CPAN::Meta::Converter version 2.101670",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "MooseX-StrictConstructor",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Moose" : "0.94"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::Exception" : 0,
+            "Test::More" : "0.88"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-moosex-strictconstructor@rt.cpan.org",
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=MooseX-StrictConstructor"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://git.moose.perl.org/MooseX-StrictConstructor.git",
+         "web" : "http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=gitmo/MooseX-StrictConstructor.git;a=summary"
+      }
+   },
+   "version" : "0.11"
+}
+

@@ -1,0 +1,20 @@
+Source: libmoosex-strictconstructor-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl (>= 5.10.1), libtest-exception-perl,
+  libmoose-perl (>= 0.94)
+Maintainer: Eddie Belter <ebelter@genome.wustl.edu>
+Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/MooseX-StrictConstructor/
+
+Package: libmoosex-strictconstructor-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, libmoose-perl (>= 0.94)
+Description: Make your object constructors blow up on unknown attributes
+ Simply loading this module makes your constructors "strict". If your
+ constructor is called with an attribute init argument that your class does
+ not declare, then it calls "Carp::confess()". This is a great way to catch
+ small typos.
+ .
+ This description was automagically extracted from the module by dh-make-perl.

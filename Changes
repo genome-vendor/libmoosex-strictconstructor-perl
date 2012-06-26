@@ -1,0 +1,75 @@
+0.11     2010-09-09
+
+- Added a missing test dep on Test::Exception. Reported by Phillip Moore. RT
+  #61205.
+
+
+0.10     2010-07-16
+
+- Ignore __INSTANCE__ when passed to the constructor. Patch by Jesse
+  Luehrs. RT #59236.
+
+- All init args are quoted in the inlined constructor.
+
+
+0.09     2010-07-14
+
+- Use modern Moose APIs, to avoid warnings with the next Moose release.
+
+
+0.08     2009-04-07
+
+- Make this module work with Moose 0.73_01+.
+
+
+0.07     2008-09-01
+
+- No code changes, just a stable release for Moose 0.56.
+
+
+0.06_02  2008-08-30
+
+* This module no longer exports Moose's sugar. Just use Moose instead.
+
+- Various doc fixes to reflect changes since 0.06.
+
+
+0.06_01  2008-08-30
+
+- Rewrote this distro's functionality as roles to take advantage of
+  Moose::Util::MetaRole. Less code, plays better with other
+  extensions.
+
+
+0.06     2008-06-27
+
+- Changes to the immutable bits to work with the latest Moose (0.51).
+
+
+0.05     2008-04-18
+
+- The fix in 0.04 only worked for non-immutable classes.
+
+
+0.04     2008-04-18
+
+- This module did not respect the init_arg attribute setting, and used
+  the attribute name instead. Reported by Matt Trout. RT #34507.
+
+
+0.03     2007-11-20
+
+- Require Moose 0.26, since that's first version to offer init_meta(),
+  apparently.
+
+
+0.02     2007-11-15
+
+- Moose was missing from the prereq list. Reported by Slaven Rezic.
+
+- Version 0.01 did not work after a class was made immutable.
+
+
+0.01     2007-11-14
+
+- First version, released on an unsuspecting world.
